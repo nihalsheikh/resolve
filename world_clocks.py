@@ -15,11 +15,19 @@ time_zones = {
 
 # Simple ASCII clock template
 clock_template = """
-   _____
-  /     \\
- /_______\\
- | {time} |
- |_______|
+        _____
+     _.'_____`._
+   .'.-'  12 `-.`.
+  /,' 11  |   1 `.\
+ // 10    |     2 \\
+;;        |        ::
+|| 9   {time}    3 ||
+::       /  \      ;;
+ \\ 8        \  4 //
+  \`. 7       5 ,'/
+   '.`-.__6__.-'.'
+    ((-._____.-))
+    _))       ((_
 """
 
 # Generate Markdown file with ASCII clocks
